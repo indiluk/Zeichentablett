@@ -1,6 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
+
 ----------------------------------------------------------------------------------
 --                                 PACKAGE                                      --
 ----------------------------------------------------------------------------------
@@ -33,7 +34,7 @@ package input_logic_pkg is
       cs : out std_logic;
       din : out std_logic;
       
-      xcoord : out std_logic_vector (7 downto 0);
+      xcoord : out std_logic_vector (71 downto 0);
       ycoord : out std_logic_vector (7 downto 0);
       vals_valid : out std_logic
     );
